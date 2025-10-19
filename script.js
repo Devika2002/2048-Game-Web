@@ -128,6 +128,10 @@ window.onload = function () {
       case "ArrowRight": handleInput("right"); break;
       case "ArrowUp": handleInput("up"); break;
       case "ArrowDown": handleInput("down"); break;
+         case "r":
+          case "R":
+            initGame(); // restart game when pressing R or r
+            break;
     }
   });
 
